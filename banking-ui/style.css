@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.balance-card {
+    background: #f3f3f3;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#balance {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2a5298;
+}
+
+.deposit-section button,
+#withdrawBtn {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #2a5298;
+    color: white;
+    transition: 0.3s;
+}
+
+.deposit-section button:hover,
+#withdrawBtn:hover {
+    background: #1e3c72;
+}
+
+.withdraw-section {
+    margin-top: 15px;
+}
+
+#withdrawAmount {
+    padding: 8px;
+    width: 70%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#message {
+    margin-top: 10px;
+    font-weight: bold;
+    color: red;
+}
+
+.history {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.history ul {
+    list-style: none;
+    padding: 0;
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+.history li {
+    font-size: 14px;
+    margin: 5px 0;
+}
